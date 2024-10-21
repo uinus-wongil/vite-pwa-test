@@ -19,22 +19,22 @@ export default defineConfig({
         description: "PWA test",
         icons: [
           {
-            src: "icons/favicon.ico",
+            src: "/favicon.ico",
             sizes: "64x64 32x32 24x24 16x16",
             type: "image/x-icon"
           },
           {
-            src: "icons/android-chrome-192x192.png",
+            src: "/android-chrome-192x192.png",
             type: "image/png",
             sizes: "192x192"
           },
           {
-            src: "icons/android-chrome-512x512.png",
+            src: "/android-chrome-512x512.png",
             type: "image/png",
             sizes: "512x512"
           },
           {
-            src: "icons/android-chrome-512x512.png",
+            src: "/android-chrome-512x512.png",
             type: "image/png",
             sizes: "512x512",
             purpose: "any maskable"
